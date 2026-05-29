@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is '05-Compilers-FinalProject.blg'
+[274] biber-MSWIN64:342> INFO - === 
+[331] Biber.pm:421> INFO - Reading '05-Compilers-FinalProject.bcf'
+[524] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[550] Biber.pm:4487> INFO - Processing section 0
+[573] Biber.pm:4678> INFO - Looking for bibtex file 'bib/protocolo.bib' for section 0
+[687] bibtex.pm:1713> INFO - LaTeX decoding ...
+[788] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/protocolo.bib'
+[955] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[955] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[955] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[955] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[969] bbl.pm:676> INFO - Writing '05-Compilers-FinalProject.bbl' with encoding 'UTF-8'
+[972] bbl.pm:779> INFO - Output to 05-Compilers-FinalProject.bbl

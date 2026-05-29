@@ -1,0 +1,67 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{}%
+\contentsline {section}{\numberline {2}Theoretical Framework}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Compilers}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Lexical Analysis}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Context Free Grammar (CFG)}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Syntax Analysis (Parser)}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Parsing Methods}{7}{}%
+\contentsline {subsection}{\numberline {2.6}FIRST Sets}{7}{}%
+\contentsline {subsection}{\numberline {2.7}LR(1) Items and Closure}{8}{}%
+\contentsline {subsection}{\numberline {2.8}GOTO and State Construction}{8}{}%
+\contentsline {subsection}{\numberline {2.9}Shift-Reduce Parsing}{8}{}%
+\contentsline {subsection}{\numberline {2.10}Syntax-Directed Translation}{9}{}%
+\contentsline {subsection}{\numberline {2.11}Abstract Syntax Tree (AST)}{9}{}%
+\contentsline {subsection}{\numberline {2.12}Symbol Table}{9}{}%
+\contentsline {subsection}{\numberline {2.13}Intermediate Code Generation}{10}{}%
+\contentsline {subsection}{\numberline {2.14}Code Optimization}{10}{}%
+\contentsline {subsection}{\numberline {2.15}Target Code Generation}{11}{}%
+\contentsline {subsection}{\numberline {2.16}Linker and Execution}{11}{}%
+\contentsline {section}{\numberline {3}Development}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Grammar}{12}{}%
+\contentsline {subsection}{\numberline {3.2}Phase 1 ---Lexical Analysis}{14}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Token Table Design}{14}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Tokenization Algorithm}{15}{}%
+\contentsline {subsection}{\numberline {3.3}Phase 2 --- Syntactic Analysis}{15}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Grammar Design and Operator Precedence}{15}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}FIRST Set Computation}{17}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}LR(1) Item Set Construction}{17}{}%
+\contentsline {subsubsection}{\numberline {3.3.4}LALR(1) State Merging}{17}{}%
+\contentsline {subsubsection}{\numberline {3.3.5}ACTION and GOTO Table Construction}{18}{}%
+\contentsline {subsubsection}{\numberline {3.3.6}Token-to-Grammar-Symbol Mapping}{18}{}%
+\contentsline {subsubsection}{\numberline {3.3.7}Shift-Reduce Driver Loop}{19}{}%
+\contentsline {subsection}{\numberline {3.4}Phase 3 --- Syntax-Directed Translation and AST Construction}{19}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}AST Node Structure}{19}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Symbol Table with Nested Scopes}{20}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Function Table}{20}{}%
+\contentsline {subsubsection}{\numberline {3.4.4}Type System and Coercion}{21}{}%
+\contentsline {subsubsection}{\numberline {3.4.5}Expression Evaluation}{21}{}%
+\contentsline {subsubsection}{\numberline {3.4.6}Control Flow Semantic Checks}{22}{}%
+\contentsline {subsubsection}{\numberline {3.4.7}Function Scope Management}{23}{}%
+\contentsline {subsubsection}{\numberline {3.4.8}Printf Format String Validation}{23}{}%
+\contentsline {subsection}{\numberline {3.5}AST Export and Visualization}{24}{}%
+\contentsline {subsection}{\numberline {3.6}Entry Points and User Interfaces}{24}{}%
+\contentsline {subsubsection}{\numberline {3.6.1}Terminal Interface}{24}{}%
+\contentsline {subsubsection}{\numberline {3.6.2}Graphical Interface}{24}{}%
+\contentsline {subsubsection}{\numberline {3.6.3}Dependency Checker}{25}{}%
+\contentsline {subsection}{\numberline {3.7}Test Cases}{25}{}%
+\contentsline {subsubsection}{\numberline {3.7.1}Test 1 --- Basic arithmetic declaration (test\_ok\_1.c)}{25}{}%
+\contentsline {subsubsection}{\numberline {3.7.2}Test 2 --- Insufficient function arguments (test\_argumentos-insuficientes.c)}{25}{}%
+\contentsline {section}{\numberline {4}Results}{26}{}%
+\contentsline {subsection}{\numberline {4.1}GUI Execution}{26}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Expected Project Structure}{26}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Downloading the Project}{27}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Running on Windows}{28}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Running on macOS and Linux}{29}{}%
+\contentsline {subsubsection}{\numberline {4.1.5}Permissions and System Dependencies}{30}{}%
+\contentsline {subsection}{\numberline {4.2}Expected Output}{30}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}What to Do If an Error Occurs}{31}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Execution Summary}{32}{}%
+\contentsline {subsection}{\numberline {4.3}Valid Test Cases}{32}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Test Case 1: Valid Declaration, Arrays, Arithmetic Operations and Control Structures}{32}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Test Case 2: Valid Declarations, Arrays, Indexes, and Functions (05\_function\_param\_index\_ok.c)}{34}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Test Case 3: Full Language Feature Integration (05\_full\_feature\_succes.c)}{35}{}%
+\contentsline {subsection}{\numberline {4.4}Invalid Test Cases}{36}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Test Case 4: Lexical Error (20\_lexical\_invalid\_symbol.c)}{36}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}Test Case 5: Sintax Error}{37}{}%
+\contentsline {section}{\numberline {5}Conclusions}{38}{}%
